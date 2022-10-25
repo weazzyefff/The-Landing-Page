@@ -1,15 +1,24 @@
 * {
     border: 1px solid red;
 }
+
 .header,
 .footer {
     display: flex;
     justify-content: space-between;
-    padding: 16px;
+    padding: 50px;
+    background-color: #1F2937;
+    color: #f9faf8;
 }
+.header{
+   margin-top: -35px
+}
+
 .footer {
-    background: #eee;
+    font-weight: 200;
+    justify-content: center;
 }
+
 body {
     display: flex;
     height: 100vh;
@@ -18,6 +27,7 @@ body {
     font-family: Roboto, sans-serif;
     flex-direction: column;
 }
+
 ul {
     list-style-type: none;
     display: flex;
@@ -25,11 +35,92 @@ ul {
     padding: 0;
     gap: 16px;
 }
-.icon{
+.icon {
     display: flex;
+    font-size: 24px;
+    font-weight: 800;
 }
-.footerContent{
+
+.footerContent {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+.hero-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #1F2937;
+    color: #E5E7EB;
+}
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-left .main-text {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 800;
+}
+.main-text{
+    width: 400px;
+    margin-bottom: -65px;
+}
+.secondary-text{
+    width: 428px;
+    margin-bottom: -13px;
+}
+.hero-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 8px 16px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+}
+.gallery-container{
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    margin-bottom: 60px;
+
+}
+.title {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    padding: 40px;
+}
+.info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .info img{
+    border-radius: 10px;
+    border: 3px solid #3882f6;
+  }
+  .text{
+    width: 149px;
+    text-align: center;
+    padding: 8px;
+  }
