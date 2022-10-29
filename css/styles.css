@@ -10,8 +10,9 @@
     background-color: #1F2937;
     color: #f9faf8;
 }
-.header{
-   margin-top: -35px
+
+.header {
+    margin-top: -35px
 }
 
 .footer {
@@ -28,17 +29,19 @@ body {
 }
 
 ul {
-   list-style-type: none;
+    list-style-type: none;
     display: flex;
     margin: 0;
     padding: 0;
     gap: 16px;
 }
-.header a{
+
+.header a {
     text-decoration: none;
     color: #f9faf8;
     font-size: 18px;
 }
+
 .icon {
     display: flex;
     font-size: 24px;
@@ -50,13 +53,15 @@ ul {
     justify-content: center;
     align-items: center;
 }
-.hero-container{
+
+.hero-container {
     display: flex;
     justify-content: space-between;
     padding: 50px;
     background-color: #1F2937;
     color: #E5E7EB;
 }
+
 .hero-left {
     display: flex;
     flex-direction: column;
@@ -70,25 +75,30 @@ ul {
     color: #f9faf8;
     font-weight: 800;
 }
-.main-text{
+
+.main-text {
     width: 400px;
     margin-bottom: -65px;
 }
-.secondary-text{
+
+.secondary-text {
     width: 428px;
     margin-bottom: -13px;
 }
-.hero-right{
+
+.hero-right {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .hero-img {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 633px;
 }
+
 .button {
     background-color: #3882f6;
     color: #f9faf8;
@@ -101,13 +111,15 @@ ul {
     border-style: none;
 
 }
-.gallery-container{
+
+.gallery-container {
     display: flex;
     justify-content: center;
     gap: 52px;
     margin-bottom: 60px;
 
 }
+
 .title {
     display: flex;
     justify-content: center;
@@ -116,27 +128,32 @@ ul {
     color: #1f2937;
     padding: 40px;
 }
+
 .info {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-  }
-  .info img{
+}
+
+.info img {
     border-radius: 10px;
     border: 3px solid #3882f6;
-  }
-  .text{
+}
+
+.text {
     width: 149px;
     text-align: center;
     padding: 8px;
-  }
-  .quote-container{
+}
+
+.quote-container {
     background-color: #E5E7EB;
     padding: 80px;
-    
-  }
-  .quote{
+
+}
+
+.quote {
     margin-left: 258px;
     margin-bottom: 20px;
     width: 628px;
@@ -144,11 +161,37 @@ ul {
     font-size: 36px;
     font-style: italic;
     font-weight: 300;
-  }
-  .quotee{
+}
+
+.quotee {
+    margin-left: 242px;
+    margin-bottom: 20px;
     display: flex;
     justify-content: right;
-    margin-right: 355px;
-    margin-top: -70px;
+    margin-top: -120px;
     font-weight: 800;
-  }
+    padding: 50px;
+    width: 628px;
+}
+
+.call-container {
+    display: flex;
+    justify-content: space-between;
+    color: #E5E7EB;
+}
+
+.inside-container {
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    background-color: #3882f6;
+}
+
+.top-line {
+    font-size: 38px;
+    font-weight: 600px;
+}
+
+.bottom-line {
+    font-size: 30px;
+}
