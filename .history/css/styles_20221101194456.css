@@ -1,6 +1,6 @@
-/* {
+* {
     border: 1px solid red;
-}*/
+}
 
 .header,
 .footer {
@@ -168,8 +168,7 @@ ul {
     justify-content: right;
     font-weight: 800;
     padding: 10px;
-    margin-right: 76px;
-    margin-top: -23px;
+    margin-right: 40px;
 }
 
 .call-container {
